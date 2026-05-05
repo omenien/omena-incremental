@@ -25,3 +25,4 @@ panic = "warn"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
+salsa = { version = "0.26.1", default-features = false, features = ["macros", "inventory"] }
